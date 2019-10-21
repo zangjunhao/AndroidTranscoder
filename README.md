@@ -1,4 +1,2 @@
-# AndroidTranscoder
-An example app of video transcoding based on FFmpeg
-
-![](https://github.com/bobcatkay/AndroidTranscoder/blob/master/device-2019-03-28-153252.png)
+## 这是上一个Yspdemo项目的延续，因为我搭建ffmpeg三天都没搭好，选择用别人的搭建好的（基于bobcatkay/AndroidTranscoder项目）
+#### 主要是学习ffmpeg的使用和上个项目的合并使用
