@@ -16,7 +16,7 @@ extern "C"{
 
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_github_transcoder_jni_FFmpegCmd_run(JNIEnv *env, jclass type, jint cmdLen,
+Java_com_github_YspDemo_jni_FFmpegCmd_run(JNIEnv *env, jclass type, jint cmdLen,
                                              jobjectArray cmd) {
     //set java vm
     JavaVM *jvm = NULL;
@@ -42,6 +42,6 @@ Java_com_github_transcoder_jni_FFmpegCmd_run(JNIEnv *env, jclass type, jint cmdL
 
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_github_transcoder_jni_FFmpegCmd_getProgress(JNIEnv *env, jclass type) {
+Java_com_github_YspDemo_jni_FFmpegCmd_getProgress(JNIEnv *env, jclass type) {
     return get_progress();
 }
